@@ -17,6 +17,7 @@
     "baseUrl": ".",
     "paths": {
       "@nxext/angular": ["packages/angular/src/index.ts"],
+      "@nxext/i-observable": ["packages/helpers/observables/src/index.ts"],
       "@nxext/lib": ["dist/packages/lib"],
       "@nxext/lib/loader": ["dist/packages/lib/loader"],
       "@nxext/preact": ["packages/preact/src/index.ts"],
@@ -26,7 +27,13 @@
       "@nxext/sveltekit": ["packages/sveltekit/src/index.ts"],
       "@nxext/tailwind": ["packages/tailwind/src/index.ts"],
       "@nxext/vite": ["packages/vite/src/index.ts"],
-      "@nxext/vitest": ["packages/vitest/src/index.ts"]
+      "@nxext/vitest": ["packages/vitest/src/index.ts"],
+      "@nxextjs/cache": ["packages/nxextjs/cache/src/index.ts"],
+      "@nxextjs/core": ["packages/nxextjs/core/src/index.ts"],
+      "@nxextjs/httpd": ["packages/nxextjs/http/src/index.ts"],
+      "@nxextjs/ioc-models": ["packages/nxextjs/ioc-models/src/index.ts"],
+      "@nxextjs/router": ["packages/nxextjs/router/src/index.ts"],
+      "@nxextjs/storage": ["packages/nxextjs/storage/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
